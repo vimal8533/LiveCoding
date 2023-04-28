@@ -1,0 +1,138 @@
+.main{
+    margin: auto;
+    height: 500px;
+    width: 1100px;
+    /* border: solid 1px black; */
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    
+    margin: auto;
+    
+}
+.text{
+    text-align: center;
+    color: white;
+    font-weight:bold;
+    position: relative;
+    top: 80px;
+}
+.box1{
+    transition: all 1s;
+}
+.box1:hover{
+    background-color: maroon;
+    transform: translateX(10px);
+}
+.box2{
+    transition: all 1s;
+}
+.box2:hover{
+    background-color: maroon;
+    transform: translateX(-10px);
+}
+.box3{
+    transition: all 1s;
+}
+.box3:hover{
+    background-color: maroon;
+    transform: translateY(-10px);
+}
+.box4{
+    transition: all 1s;
+}
+.box4:hover{
+    background-color: maroon;
+    transform: translateY(10px);
+}
+.box5{
+    transition: all 2s;
+}
+.box5:hover{
+    background-color: maroon;
+    height: 250px;
+    width: 250px;
+}
+.box6{
+    transition: all 2s;
+}
+.box6:hover{
+    background-color: maroon;
+    height: 100px;
+    width: 100px;
+}
+.box7{
+    transition: all 2s;
+}
+.box7:hover{
+    background-color: maroon;
+    border-radius: 50%;
+}
+.box8{
+    transition: all 2s;
+}
+.box8:hover{
+    background-color: maroon;
+    transform: scale(1.25 ,1);
+    
+}
+.box9{
+    transition: all 2s;
+}
+.box9:hover{
+    background-color: maroon;
+    transform: scale(1 ,1.5);
+    
+}
+.box10{
+    transition: all 2s;
+}
+.box10:hover{
+    background-color: maroon;
+    transform: rotate(45deg)
+    
+}
+
+@media screen and (min-width:280px) and (max-width:500px) {
+    .main{
+        height: 500px;
+        width: 250px;
+        display: grid;
+        grid-template-columns: auto auto auto ;
+        margin: auto;
+        
+    }
+    .box{
+        height: 60px;
+        width: 60px;
+    }
+    .text{
+        position: relative;
+    top: 20px;
+    }
+    .box10{
+        margin: auto;
+    }
+    .box5{
+        transition: all 2s;
+    }
+    .box5:hover{
+        background-color: maroon;
+        height: 100px;
+        width: 100px;
+    }
+    .box6{
+        transition: all 2s;
+    }
+    .box6:hover{
+        background-color: maroon;
+        height: 40px;
+        width: 40px;
+    }
+}
+
